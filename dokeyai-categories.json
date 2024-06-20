@@ -1,0 +1,310 @@
+[
+    {
+        "id": 1,
+        "name": "Accounting & Finance",
+        "emoji": "📈",
+        "slug": "accounting--finance",
+        "count": 33
+    },
+    {
+        "id": 2,
+        "name": "Animation & 3D Modeling",
+        "emoji": "🎲",
+        "slug": "animation--3d-modeling",
+        "count": 27
+    },
+    {
+        "id": 3,
+        "name": "Arch & Interior Design",
+        "emoji": "🏯",
+        "slug": "architecture--interior-design",
+        "count": 15
+    },
+    {
+        "id": 4,
+        "name": "Art & Image Generator",
+        "emoji": "🌄",
+        "slug": "art--image-generator",
+        "count": 87
+    },
+    {
+        "id": 5,
+        "name": "Avatars",
+        "emoji": "😎",
+        "slug": "avatars",
+        "count": 25
+    },
+    {
+        "id": 6,
+        "name": "Chat Bot",
+        "emoji": "🤖💬",
+        "slug": "chat-bot",
+        "count": 90
+    },
+    {
+        "id": 7,
+        "name": "Code & DB Assistant",
+        "emoji": "💻",
+        "slug": "code--database-assistant",
+        "count": 39
+    },
+    {
+        "id": 8,
+        "name": "Content Generation & SEO",
+        "emoji": "📠",
+        "slug": "content-generation--seo",
+        "count": 63
+    },
+    {
+        "id": 9,
+        "name": "Creators Toolkit",
+        "emoji": "🧰",
+        "slug": "creators-toolkit",
+        "count": 29
+    },
+    {
+        "id": 10,
+        "name": "Customer Support",
+        "emoji": "👨‍💻",
+        "slug": "customer-support",
+        "count": 34
+    },
+    {
+        "id": 11,
+        "name": "Ecommerce",
+        "emoji": "🛒",
+        "slug": "ecommerce",
+        "count": 14
+    },
+    {
+        "id": 12,
+        "name": "Education & Learning",
+        "emoji": "🧠",
+        "slug": "education--learning",
+        "count": 74
+    },
+    {
+        "id": 13,
+        "name": "Email Assistant",
+        "emoji": "📧",
+        "slug": "email-assistant",
+        "count": 20
+    },
+    {
+        "id": 14,
+        "name": "Fashion",
+        "emoji": "👩‍🎤",
+        "slug": "fashion",
+        "count": 11
+    },
+    {
+        "id": 15,
+        "name": "Fun",
+        "emoji": "🤪",
+        "slug": "fun",
+        "count": 8
+    },
+    {
+        "id": 16,
+        "name": "Gaming",
+        "emoji": "🎮",
+        "slug": "gaming",
+        "count": 20
+    },
+    {
+        "id": 17,
+        "name": "Gift Ideas",
+        "emoji": "🎁💡",
+        "slug": "gift-ideas",
+        "count": 9
+    },
+    {
+        "id": 18,
+        "name": "Healthcare",
+        "emoji": "👩‍⚕️",
+        "slug": "healthcare",
+        "count": 17
+    },
+    {
+        "id": 19,
+        "name": "HR & Resume",
+        "emoji": "👩‍💼",
+        "slug": "human-resources--resume",
+        "count": 26
+    },
+    {
+        "id": 20,
+        "name": "Idea Generation",
+        "emoji": "💡",
+        "slug": "idea-generation",
+        "count": 30
+    },
+    {
+        "id": 21,
+        "name": "Legal",
+        "emoji": "👩‍⚖️",
+        "slug": "legal",
+        "count": 14
+    },
+    {
+        "id": 22,
+        "name": "Logo Generator",
+        "emoji": "⚜️",
+        "slug": "logo-generator",
+        "count": 11
+    },
+    {
+        "id": 23,
+        "name": "Meeting Assistant",
+        "emoji": "👨‍💻",
+        "slug": "meeting-assistant",
+        "count": 14
+    },
+    {
+        "id": 24,
+        "name": "Music & Audio Generation",
+        "emoji": "🎼",
+        "slug": "music--audio-generation",
+        "count": 47
+    },
+    {
+        "id": 25,
+        "name": "NSFW",
+        "emoji": "👀",
+        "slug": "nsfw",
+        "count": 15
+    },
+    {
+        "id": 26,
+        "name": "Organization & Automation",
+        "emoji": "🧞‍♂️",
+        "slug": "organization--automation",
+        "count": 35
+    },
+    {
+        "id": 27,
+        "name": "Photo & Image Editing",
+        "emoji": "📸",
+        "slug": "photo--image-editing",
+        "count": 43
+    },
+    {
+        "id": 28,
+        "name": "Plugins & Extensions",
+        "emoji": "🔌",
+        "slug": "plugins--extensions",
+        "count": 22
+    },
+    {
+        "id": 29,
+        "name": "Productivity & Growth",
+        "emoji": "🚀",
+        "slug": "productivity--personal-growth",
+        "count": 34
+    },
+    {
+        "id": 30,
+        "name": "Research Assistant",
+        "emoji": "🎓",
+        "slug": "research-assistant",
+        "count": 51
+    },
+    {
+        "id": 31,
+        "name": "Reviews & Recommend",
+        "emoji": "🗳",
+        "slug": "reviews--recommendations",
+        "count": 20
+    },
+    {
+        "id": 32,
+        "name": "Sales & Marketing",
+        "emoji": "💰",
+        "slug": "sales--marketing",
+        "count": 41
+    },
+    {
+        "id": 33,
+        "name": "Search Engines",
+        "emoji": "🔍",
+        "slug": "search-engines",
+        "count": 17
+    },
+    {
+        "id": 34,
+        "name": "Slides & Presentations",
+        "emoji": "📊",
+        "slug": "slides--presentations",
+        "count": 15
+    },
+    {
+        "id": 35,
+        "name": "Social Networks & Dating",
+        "emoji": "💞",
+        "slug": "social-networks--dating",
+        "count": 16
+    },
+    {
+        "id": 36,
+        "name": "Speech",
+        "emoji": "📢",
+        "slug": "speech",
+        "count": 13
+    },
+    {
+        "id": 37,
+        "name": "Text",
+        "emoji": "📝",
+        "slug": "text",
+        "count": 21
+    },
+    {
+        "id": 38,
+        "name": "Text To Speech",
+        "emoji": "📝🔉",
+        "slug": "text-to-speech",
+        "count": 19
+    },
+    {
+        "id": 39,
+        "name": "Translation & Transcript",
+        "emoji": "🇺🇳",
+        "slug": "translation--transcript",
+        "count": 21
+    },
+    {
+        "id": 40,
+        "name": "Vacation & Trip Planner",
+        "emoji": "🏖",
+        "slug": "vacation--trip-planner",
+        "count": 24
+    },
+    {
+        "id": 41,
+        "name": "Video",
+        "emoji": "🎬",
+        "slug": "video",
+        "count": 61
+    },
+    {
+        "id": 42,
+        "name": "Web Design",
+        "emoji": "🕸",
+        "slug": "web-design",
+        "count": 29
+    },
+    {
+        "id": 43,
+        "name": "Writing Assistant",
+        "emoji": "✍️",
+        "slug": "writing-assistant",
+        "count": 33
+    },
+    {
+        "id": 44,
+        "name": "Uncategoried",
+        "emoji": "🤡",
+        "slug": "uncategoried",
+        "count": 10
+    }
+]
