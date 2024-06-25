@@ -7,7 +7,7 @@ import './globals.css';
 
 import { Suspense } from 'react';
 
-import GoogleAdScript from '@/components/ad/GoogleAdScript';
+// import GoogleAdScript from '@/components/ad/GoogleAdScript';
 import SeoScript from '@/components/seo/SeoScript';
 
 import Loading from './loading';
@@ -23,7 +23,7 @@ export default function RootLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning className='dark'>
-      <body className='relative mx-auto flex min-h-screen flex-col bg-tap4-black text-white'>
+      <body className='relative mx-auto flex min-h-screen flex-col bg-slate-100 text-black'>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Toaster
             position='top-center'
@@ -40,7 +40,7 @@ export default function RootLayout({
           <Suspense fallback={<Loading />}>{children}</Suspense>
         </NextIntlClientProvider>
         <SeoScript />
-        <GoogleAdScript />
+        {/* <GoogleAdScript /> */}
       </body>
     </html>
   );

@@ -10,14 +10,14 @@ function TitleItem({ children }: { children: React.ReactNode }) {
 }
 
 function ContentItem({ children }: { children: React.ReactNode }) {
-  return <h3 className='mt-3 text-white/60'>{children}</h3>;
+  return <h3 className='mt-3 text-black/60'>{children}</h3>;
 }
 
 export default function Faq() {
   const t = useTranslations('Faq');
   return (
     <div className='mx-auto max-w-pc space-y-8 pb-5'>
-      <h1 className='text-center text-2xl font-bold lg:pb-3 lg:text-3xl'>{t('title')}</h1>
+      <h1 className='text-center font-serif text-2xl font-bold lg:pb-3 lg:text-3xl'>{t('title')}</h1>
       <div className='grid grid-cols-1 gap-5 px-3 lg:grid-cols-2 lg:gap-16 lg:px-0'>
         <div>
           <TitleItem>{t('1.question')}</TitleItem>

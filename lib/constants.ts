@@ -5,7 +5,8 @@ export const NAV_LINKS = [
   },
   {
     code: 'submit',
-    href: '/submit',
+    href: '/',
+    // href: '/submit', //连接数据库后再打开
   },
   {
     code: 'startup',
@@ -15,10 +16,10 @@ export const NAV_LINKS = [
 
 export const PAGE_SIZE = 20;
 
-export const FORM_PLACEHOLDER = 'https://tap4.ai/';
+export const FORM_PLACEHOLDER = 'https://airanking.ai/';
 
 export const WEBSITE_EXAMPLE =
-  '<a href="https://tap4.ai/" title="Tap4 AI Tools Directory">Tap4 AI Tools Diresctory</a>';
+  '<a href="https://airanking.ai/" title="Ai Ranking Tools Directory">Ai Ranking Tools Diresctory</a>';
 
 export const STARTUP_LIST = [
   {
@@ -429,8 +430,8 @@ export const STARTUP_LIST = [
   },
   {
     DA: 7,
-    Website: 'Tap4 AI',
-    URL: 'https://tap4.ai/',
+    Website: 'AI Ranking',
+    URL: 'https://AiRanking.ai/',
     Price: 'Free',
     Tag: 'AI',
   },

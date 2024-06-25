@@ -74,7 +74,7 @@ export default function SubmitForm({ className }: { className?: string }) {
                 <FormLabel>{t('website')}</FormLabel>
                 <FormControl>
                   <Input
-                    placeholder='Tap4 AI'
+                    placeholder='Ai Ranking'
                     className='input-border-pink h-[42px] w-full rounded-[8px] border-[0.5px] bg-dark-bg p-5'
                     {...field}
                   />
@@ -112,8 +112,8 @@ export default function SubmitForm({ className }: { className?: string }) {
           >
             {loading ? <Spinning className='size-[22px]' /> : t('submit')}
           </button>
-          <p className='text-[13px] text-white/40'>
-            {t('add')} <span className='text-white'>{WEBSITE_EXAMPLE}</span> {t('text')}
+          <p className='text-[13px] text-black/40'>
+            {t('add')} <span className='text-black'>{WEBSITE_EXAMPLE}</span> {t('text')}
           </p>
         </div>
       </form>

@@ -18,7 +18,7 @@ function NavDrawerItem({ isActive, name }: { isActive: boolean; name: string }) 
       )}
     >
       <div className={cn('size-3 rounded-full bg-[#15141A]', isActive && 'bg-white')} />
-      <div className={cn('text-sm text-white/40', isActive && 'text-white')}>{name}</div>
+      <div className={cn('text-sm text-black/40', isActive && 'text-black')}>{name}</div>
     </li>
   );
 }
@@ -51,12 +51,12 @@ export default function NavigationDrawer({ open, setOpen }: { open: boolean; set
   return (
     <>
       <div
-        className={cn('fixed z-50 h-screen w-screen overflow-hidden bg-black/60', isOpen ? 'block' : 'hidden')}
+        className={cn('fixed z-50 h-screen w-screen overflow-hidden bg-white/60', isOpen ? 'block' : 'hidden')}
         onClick={onClose}
       />
       <div
         className={cn(
-          'fixed right-0 top-16 z-[99999] h-[calc(100%-64px)] w-[276px] transform bg-black shadow-lg transition-transform duration-300',
+          'fixed right-0 top-16 z-[99999] h-[calc(100%-64px)] w-[276px] transform bg-white shadow-lg transition-transform duration-300',
           isOpen ? 'translate-x-0' : 'translate-x-full',
         )}
       >

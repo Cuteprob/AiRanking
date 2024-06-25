@@ -2,7 +2,8 @@ import { HTMLAttributeAnchorTarget } from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-import { CONTACT_US_EMAIL } from '@/lib/env';
+// import { CONTACT_US_EMAIL } from '@/lib/env';
+import BaseImage from '../image/BaseImage';
 
 function InfoLink({
   href,
@@ -34,7 +35,7 @@ export default function Footer() {
   const SupportLinks = [
     {
       title: t('tap4'),
-      href: 'https://www.tap4.ai',
+      href: 'https://www.airanking.ai',
     },
     {
       title: t('tattoo'),
@@ -54,10 +55,20 @@ export default function Footer() {
   ];
 
   return (
-    <footer className='w-full bg-[#151623]'>
+    <footer className='w-full bg-white'>
       <div className='mx-auto flex min-h-[251px] max-w-pc flex-col items-center justify-between p-10 pb-5 lg:h-[180px] lg:flex-row lg:px-0 lg:pb-10'>
         <div className='flex flex-col items-center lg:items-stretch'>
-          <h1 className='text-xl font-bold text-white lg:h-8 lg:text-[32px]'>{t('title')}</h1>
+          <div className='flex flex-row items-center space-x-2 pb-3'>
+            <BaseImage
+              src='/images/logo.svg'
+              alt={t('title')}
+              title={t('title')}
+              width={32}
+              height={32}
+              className='size-[32px] lg:size-[50px]'
+            />
+            <h1 className='flex-center flex font-serif text-xl font-bold text-violet-600 lg:text-2xl'>{t('title')}</h1>
+          </div>
           <h2 className='text-xs'>{t('subTitle')}</h2>
         </div>
         <div className='mt-5 flex flex-col items-center gap-y-5 lg:mt-0 lg:flex-row lg:items-stretch lg:gap-x-10'>
@@ -76,18 +87,18 @@ export default function Footer() {
               </a>
             ))}
           </div>
-          <div className='grid grid-cols-2 gap-x-10 gap-y-5 lg:grid-cols-1 lg:gap-3'>
+          <div className='grid grid-cols-2 gap-x-10 gap-y-2 lg:grid-cols-1 lg:gap-2'>
             {INFO_LIST.map((item) => (
               <InfoLink key={item.href} href={item.href} title={item.title} />
             ))}
-            <a
+            {/* <a
               href={`mailto:${CONTACT_US_EMAIL}`}
               className='whitespace-nowrap text-xs hover:opacity-70 lg:text-base'
               title={t('contactUs')}
               type='email'
             >
               {t('contactUs')}
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
