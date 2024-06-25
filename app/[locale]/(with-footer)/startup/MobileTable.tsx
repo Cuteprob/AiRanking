@@ -6,6 +6,8 @@ import { STARTUP_LIST } from '@/lib/constants';
 import PriceItem from './PriceItem';
 import TagItem from './TagItem';
 
+export const runtime = 'edge';
+
 export default function MobileTable() {
   const t = useTranslations('Startup.table');
 

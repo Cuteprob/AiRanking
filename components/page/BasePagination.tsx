@@ -8,6 +8,8 @@ import Pagination from 'rc-pagination';
 import { cn } from '@/lib/utils';
 import { objToQueryStr } from '@/lib/utils/stringUtils';
 
+export const runtime = 'edge';
+
 type BasePaginationProps = {
   route: string;
   subRoute?: string;

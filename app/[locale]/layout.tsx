@@ -12,6 +12,8 @@ import SeoScript from '@/components/seo/SeoScript';
 
 import Loading from './loading';
 
+export const runtime = 'edge';
+
 export default function RootLayout({
   children,
   params: { locale },

@@ -5,6 +5,8 @@ import { useTranslations } from 'next-intl';
 // import { CONTACT_US_EMAIL } from '@/lib/env';
 import BaseImage from '../image/BaseImage';
 
+export const runtime = 'edge';
+
 function InfoLink({
   href,
   title,

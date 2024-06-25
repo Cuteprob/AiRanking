@@ -2,6 +2,8 @@ import Script from 'next/script';
 
 import { GOOGLE_TRACKING_ID } from '@/lib/env';
 
+export const runtime = 'edge';
+
 export default function SeoScript() {
   return (
     <>

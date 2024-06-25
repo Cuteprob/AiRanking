@@ -3,6 +3,8 @@
 import { useEffect, useState } from 'react';
 import { ArrowUp } from 'lucide-react';
 
+export const runtime = 'edge';
+
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
 

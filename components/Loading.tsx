@@ -2,6 +2,8 @@ import { useTranslations } from 'next-intl';
 
 import Spinning from './Spinning';
 
+export const runtime = 'edge';
+
 export default function Loading({ className }: { className?: string }) {
   const t = useTranslations('Common');
 

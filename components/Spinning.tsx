@@ -1,5 +1,7 @@
 import { cn } from '@/lib/utils';
 
+export const runtime = 'edge';
+
 export default function Spinning({ className }: { className?: string }) {
   return (
     <div role='status'>

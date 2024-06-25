@@ -6,6 +6,7 @@ import WebNavCardList from '@/components/webNav/WebNavCardList';
 const WEB_PAGE_SIZE = 20;
 
 export const revalidate = 3600;
+export const runtime = 'edge';
 
 export default async function ExploreList({ pageNum }: { pageNum?: string }) {
   const currentPage = pageNum ? Number(pageNum) : 1;

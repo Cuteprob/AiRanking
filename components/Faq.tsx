@@ -1,6 +1,8 @@
 import { CircleHelp } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
+export const runtime = 'edge';
+
 function TitleItem({ children }: { children: React.ReactNode }) {
   return (
     <h2 className='flex items-center gap-1 text-2xl'>

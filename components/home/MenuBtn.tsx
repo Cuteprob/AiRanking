@@ -2,6 +2,8 @@
 
 import { cn } from '@/lib/utils';
 
+export const runtime = 'edge';
+
 function BarItem({ className }: { className: string }) {
   return (
     <span

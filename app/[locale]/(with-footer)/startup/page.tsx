@@ -8,6 +8,8 @@ import Faq from '@/components/Faq';
 import DesktopTable from './DesktopTable';
 import MobileTable from './MobileTable';
 
+export const runtime = 'edge';
+
 const ScrollToTop = dynamic(() => import('@/components/page/ScrollToTop'), { ssr: false });
 
 export default function Page() {

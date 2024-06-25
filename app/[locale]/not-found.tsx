@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
+export const runtime = 'edge';
+
 export default function NotFound() {
   const t = useTranslations('NotFound');
   return (

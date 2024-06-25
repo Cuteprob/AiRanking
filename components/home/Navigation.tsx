@@ -13,6 +13,8 @@ import LocaleSwitcher from '../LocaleSwitcher';
 import MenuBtn from './MenuBtn';
 import NavigationDrawer from './NavigationDrawer';
 
+export const runtime = 'edge';
+
 export default function Navigation() {
   const t = useTranslations('Navigation');
   const pathname = usePathname();

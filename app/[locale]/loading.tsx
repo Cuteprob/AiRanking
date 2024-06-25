@@ -1,5 +1,7 @@
 import Loading from '@/components/Loading';
 
+export const runtime = 'edge';
+
 export default function HomeLoading() {
   return (
     <div className='-z-10 flex min-h-screen min-w-full items-center justify-center bg-opacity-90'>

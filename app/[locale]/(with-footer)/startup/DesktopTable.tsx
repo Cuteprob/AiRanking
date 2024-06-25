@@ -7,6 +7,8 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@
 import PriceItem from './PriceItem';
 import TagItem from './TagItem';
 
+export const runtime = 'edge';
+
 export default function DesktopTable() {
   const t = useTranslations('Startup.table');
 

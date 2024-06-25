@@ -9,6 +9,8 @@ import { useTranslations } from 'next-intl';
 import { NAV_LINKS } from '@/lib/constants';
 import { cn } from '@/lib/utils';
 
+export const runtime = 'edge';
+
 function NavDrawerItem({ isActive, name }: { isActive: boolean; name: string }) {
   return (
     <li

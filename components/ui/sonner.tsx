@@ -3,6 +3,8 @@
 import { useTheme } from 'next-themes';
 import { Toaster as Sonner } from 'sonner';
 
+export const runtime = 'edge';
+
 type ToasterProps = React.ComponentProps<typeof Sonner>;
 
 const Toaster = ({ ...props }: ToasterProps) => {

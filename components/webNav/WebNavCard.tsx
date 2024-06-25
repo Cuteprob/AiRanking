@@ -6,6 +6,8 @@ import { WebNavigationListRow } from '@/lib/data';
 
 import BaseImage from '../image/BaseImage';
 
+export const runtime = 'edge';
+
 export default function WebNavCard({ name, thumbnailUrl, title, content }: WebNavigationListRow) {
   return (
     <div className='flex flex-col gap-3 rounded-[12px] bg-slate-200 p-2 lg:p-5'>

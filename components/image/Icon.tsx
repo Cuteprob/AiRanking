@@ -2,6 +2,8 @@ import { cn } from '@/lib/utils';
 
 import BaseImage from './BaseImage';
 
+export const runtime = 'edge';
+
 export default function Icon({
   src,
   className,

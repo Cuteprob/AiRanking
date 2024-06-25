@@ -9,6 +9,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { usePathname, useRouter } from '../app/navigation';
 import Icon from './image/Icon';
 
+export const runtime = 'edge';
+
 export default function LocaleSwitcher() {
   const currentLocale = useLocale();
   const pathname = usePathname();

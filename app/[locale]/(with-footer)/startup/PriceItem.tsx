@@ -1,5 +1,7 @@
 import { cn } from '@/lib/utils';
 
+export const runtime = 'edge';
+
 export default function PriceItem({ title, isFree }: { title: string; isFree: boolean }) {
   return (
     <div

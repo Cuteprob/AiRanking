@@ -8,6 +8,8 @@ import { getTranslations } from 'next-intl/server';
 import Faq from '@/components/Faq';
 import WebNavCardList from '@/components/webNav/WebNavCardList';
 
+export const runtime = 'edge';
+
 const ScrollToTop = dynamic(() => import('@/components/page/ScrollToTop'), { ssr: false });
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {

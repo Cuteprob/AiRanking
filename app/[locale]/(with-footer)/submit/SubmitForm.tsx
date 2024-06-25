@@ -15,6 +15,8 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '
 import { Input } from '@/components/ui/input';
 import Spinning from '@/components/Spinning';
 
+export const runtime = 'edge';
+
 const FormSchema = z.object({
   website: z.string(),
   url: z.string().url(),
